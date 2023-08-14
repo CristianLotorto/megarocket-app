@@ -1,5 +1,5 @@
 .modalAlert {
-  min-width: 450px;
+  min-width: 285px;
   max-width:500px;
   margin-left: -125px;
   background-color: var(--red);
@@ -63,4 +63,11 @@
 }
 .iconsClose:hover{
   width:28px;
+}
+
+@media screen and (max-width: 768px) {
+  .modalAlert {
+    width: 290px;
+    margin-left: -161.5px;
+  }
 }
